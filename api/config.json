@@ -1,0 +1,65 @@
+{
+    "api": {
+      "port": 2251,
+      "base_url": "/api"
+    },
+    "panel": {
+      "name": "",
+      "menu_logo_url": "",
+      "url": "",
+      "company_name": "",
+      "company_name_full": "",
+      "fav_icon_url": ""
+    },
+    "capabilities": {
+      "qemuVps": false,
+      "pterodactylServer": true,
+      "discordAuthentication": false
+    },
+    "mysql": {
+      "host": "",
+      "user": "",
+      "password": "",
+      "database": ""
+    },
+    "currency": {
+      "name": "USD",
+      "symbol": "$",
+      "separator": "."
+    },
+    "contact": {
+      "website": {
+        "display": "",
+        "href": ""
+      },
+      "email": {
+        "display": "",
+        "href": ""
+      }
+    },
+    "paypal": {
+      "client_id": "",
+      "client_secret": "",
+      "mode": "",
+      "return_url": "",
+      "cancel_url": "",
+      "currency": "USD"
+    },
+    "pterodactyl": {
+      "server": "",
+      "key": ""
+    },
+    "mail": {
+      "host": "",
+      "port": 465,
+      "secure": true,
+      "auth": {
+        "user": "",
+        "pass": ""
+      },
+      "tls": {
+        "rejectUnauthorized": false
+      },
+      "footer_logo": ""
+    }
+  }
