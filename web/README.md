@@ -1,4 +1,4 @@
-# diskos-account-version2
+# diskcraft-account-version1
 
 ## Project setup
 ```
