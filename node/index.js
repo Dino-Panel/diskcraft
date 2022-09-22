@@ -1,6 +1,8 @@
 const express = require("express");
 const app = express();
 const port = 12645;
+const ipv6Only = false;
+
 app.use(express.json());
 
 const dockerStatistics = require("./docker");
@@ -109,4 +111,4 @@ app.post("/qemu/vm/create", async (req, res) => {
   console.log(`qemu/vm/create`);
 });
 
-app.listen(port, () => {});
+app.listen(port, ipv6Only ? "::" : "0.0.0.0", () => {});
