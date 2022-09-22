@@ -33,7 +33,7 @@ if (cluster.isWorker) {
 
   httpHandler(app);
 
-  server = app.listen(config.api.port, () => {});
+  server = app.listen(config.api.port, config.api.ipv6Only ? "::" : "0.0.0.0", () => {});
 } else {
   // autoUpdate().then(() => {
   var workers = [];

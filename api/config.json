@@ -1,6 +1,7 @@
 {
     "api": {
       "port": 2251,
+      "ipv6Only": false,
       "base_url": "/api"
     },
     "panel": {
