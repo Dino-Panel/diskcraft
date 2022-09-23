@@ -32,8 +32,8 @@
               <p class="card-text">
                 No servers found.
                 <br /><br />
-                <router-link to="deploy" class="btn btn-primary"
-                  >Deploy a server</router-link
+                <router-link to="order" class="btn btn-primary"
+                  >Order a server</router-link
                 >
               </p>
             </div>

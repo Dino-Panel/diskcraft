@@ -50,11 +50,6 @@ const routes = [
     component: () => import("../views/client/register.vue"),
   },
   {
-    path: "/deploy",
-    name: "deploy",
-    component: () => import("../views/client/deploy.vue"),
-  },
-  {
     path: "/dashboard",
     name: "Dashboard",
     component: () => import("../views/client/dashboard.vue"),
