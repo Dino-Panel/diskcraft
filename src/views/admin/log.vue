@@ -138,7 +138,7 @@ export default {
       var servers = vm.$root.$children[0].user.servers;
       var found = servers.find((v) => v.id == id);
       if (!found) return;
-      window.open(`https://servers.diskos.net/server/${found.identifier}`);
+      window.open(`https://panel.yourdomain.com/server/${found.identifier}`);
     },
     serverClickable(id) {
       var vm = this;
