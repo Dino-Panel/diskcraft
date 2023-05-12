@@ -13,7 +13,7 @@ app.get("/status", async (req, res) => {
   res.json({
     uptime: process.uptime(),
     version: "1.0.0.4",
-    copyright: "Diskos 2021",
+    copyright: "Dino 2023",
   });
   console.log(`status`);
 });
